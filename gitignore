@@ -1,0 +1,19 @@
+# R session / history files
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Simulation outputs (regenerate by running 01_simulate_fossils.R)
+*.csv
+*.RData
+simulation_workspace.RData
+ASE_analysis_workspace.RData
+
+# Figures produced by 02_analyze_results.R (regenerate by running it)
+Figure*.png
+*.png
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
